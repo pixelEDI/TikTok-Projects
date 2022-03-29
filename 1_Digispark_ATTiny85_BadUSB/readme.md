@@ -8,4 +8,3 @@ Get the Case: https://www.thingiverse.com/thing:2347216
 
 ![Case](https://github.com/pixelEDI/random/blob/5755f597f3e5fc6c536251c8c96072676381442c/1_Digispark_ATTiny85_BadUSB/pjimage.jpg)
 
-
