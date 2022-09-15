@@ -1,3 +1,20 @@
+/*
+
+
+        _          _ ______ _____ _____ 
+       (_)        | |  ____|  __ \_   _|
+  _ __  ___  _____| | |__  | |  | || |  
+ | '_ \| \ \/ / _ \ |  __| | |  | || |  
+ | |_) | |>  <  __/ | |____| |__| || |_ 
+ | .__/|_/_/\_\___|_|______|_____/_____|
+ | |                                    
+ |_|                                    
+                             
+www.pixeledi.eu | twitter.com/pixeledi
+GyroLight | V1.0 | 09.2022
+
+*/
+
 #include <Arduino.h>
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
