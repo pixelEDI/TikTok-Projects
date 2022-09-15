@@ -1,6 +1,6 @@
 # General info
 
-With this little sketch you can controll 5 LEDs with an analog joystick. 
+With this little sketch you can control 5 LEDs with an analogue joystick.
 
 ## Hardware
 - We used an Arduino Uno for this projekt. 
