@@ -1,1 +1,1 @@
-![Verdrahtung](https://github.com/pixelEDI/attiny_pocketdice/blob/main/pocketDice_wiring.jpg)
+![Verdrahtung]([https://github.com/pixelEDI/attiny_pocketdice/blob/main/pocketDice_wiring.jpg](https://raw.githubusercontent.com/pixelEDI/TikTok-Projects/main/2_electronic_safe/10tresor_Steckplatine.png))
