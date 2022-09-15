@@ -1,0 +1,82 @@
+[
+    {
+        "id": "e695532d914c191e",
+        "type": "mqtt in",
+        "z": "b6dfb52cd0e1d7dd",
+        "name": "",
+        "topic": "safe",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "761f8032366518be",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 430,
+        "y": 220,
+        "wires": [
+            [
+                "73764b51c3bce7b5",
+                "6c4b74e14e349659"
+            ]
+        ]
+    },
+    {
+        "id": "73764b51c3bce7b5",
+        "type": "debug",
+        "z": "b6dfb52cd0e1d7dd",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "6c4b74e14e349659",
+        "type": "e-mail",
+        "z": "b6dfb52cd0e1d7dd",
+        "server": "smtp.youremailadress.com",
+        "port": "587",
+        "secure": false,
+        "tls": false,
+        "name": "toyourfancy@email.de",
+        "dname": "",
+        "x": 800,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "761f8032366518be",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
