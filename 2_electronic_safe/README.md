@@ -1,1 +1,16 @@
-![Verdrahtung]([https://github.com/pixelEDI/attiny_pocketdice/blob/main/pocketDice_wiring.jpg](https://raw.githubusercontent.com/pixelEDI/TikTok-Projects/main/2_electronic_safe/10tresor_Steckplatine.png))
+# General info
+
+We have built an electronic safe that can be opened with an RFID tag. As soon as the safe is unlocked, you receive a notification via MQTT to your email address. 
+If you try to open the safe with an incorrect RFID tag, a red LED lights up. 
+
+## Hardware
+- The ESP32 is our microcontroller of choice for this homemade electronic safe. 
+- For the locking mechanism, we added an MG996R servo motor controlled by an RFID module.
+- We added a 220 Ω resistor for the red LED and a WS2812B LED strip for the interior lighting.
+- We also added a voltage transformer, so we can power the safe with a regular power supply.
+
+![Verdrahtung](https://github.com/pixelEDI/TikTok-Projects/blob/main/2_electronic_safe/10tresor_Steckplatine.png)
+
+
+You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
+
