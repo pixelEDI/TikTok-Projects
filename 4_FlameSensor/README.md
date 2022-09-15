@@ -9,7 +9,7 @@ When the fire is too close, a small fan is switched on by a relay, which blows o
 - We used the ALLNET 4duino flame sensor for fire detection.
 - We took a KY-019 relay to switch the 3 V DC motor on and off.
 
-<img src="https://github.com/pixelEDI/TikTok-Projects/blob/main/4_FlameSensor/02FlameSensor_Steckplatine.png?raw=true" width="300">
+<img src="https://github.com/pixelEDI/TikTok-Projects/blob/main/4_FlameSensor/02FlameSensor_Steckplatine.png?raw=true" width="500">
 
 
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
