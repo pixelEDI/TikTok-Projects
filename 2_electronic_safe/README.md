@@ -9,7 +9,7 @@ If you try to open the safe with an incorrect RFID tag, a red LED lights up.
 - We added a 220 Ω resistor for the red LED and a WS2812B LED strip for the interior lighting.
 - We also added a voltage transformer, so we can power the safe with a regular power supply.
 
-![Verdrahtung](https://github.com/pixelEDI/TikTok-Projects/blob/main/2_electronic_safe/10tresor_Steckplatine.png)
+<img src="https://github.com/pixelEDI/TikTok-Projects/blob/main/2_electronic_safe/10tresor_Steckplatine.png" width="300">
 
 
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
