@@ -11,6 +11,10 @@ If you try to open the safe with an incorrect RFID tag, a red LED lights up.
 
 <img src="https://github.com/pixelEDI/TikTok-Projects/blob/main/2_electronic_safe/10tresor_Steckplatine.png" width="300">
 
+## Node-Red
+- Install in Node-Red the "node-red-node-email" 
+- Import flow
+
 
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
 
