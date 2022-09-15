@@ -13,7 +13,7 @@ If you try to open the safe with an incorrect RFID tag, a red LED lights up.
 
 ## Node-Red
 - Install in Node-Red the "node-red-node-email" 
-- Import flow
+- Import flow: node-red-flow.json
 
 
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
