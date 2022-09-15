@@ -1,4 +1,4 @@
-I'm used the ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) IDE
+I used the ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) IDE
 
 ## General info 
 * Simple program "Bad USB".
