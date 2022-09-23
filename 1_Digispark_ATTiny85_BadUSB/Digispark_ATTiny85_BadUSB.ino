@@ -32,7 +32,7 @@ void loop() {
   DigiKeyboard.println("notepad");
   delay(200);
   //y + z switched :)
-  DigiKeyboard.println("Hello from AY Deliverz!");
+  DigiKeyboard.println("Hello from ATTINY!");
   
   // It's better to use DigiKeyboard.delay() over the regular Arduino delay()
   // if doing keyboard stuff because it keeps talking to the computer to make
