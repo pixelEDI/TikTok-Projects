@@ -9,7 +9,7 @@
   |_|
 
   www.pixeledi.eu | twitter.com/pixeledi
-  ATTiny85 Digispark Bad USB | V1.0 | 03/2022
+  ATTiny85 Digispark Bad USB | V1.0 | 09/2022
 
 */
 
