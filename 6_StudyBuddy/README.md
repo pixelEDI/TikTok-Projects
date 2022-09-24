@@ -4,7 +4,7 @@
 # CLI Study Buddy
 Have you always wanted a nostalgic learning buddy that won't distract you while learning? 
 
-SCREENSHOT
+![CLI Study Buddy](https://github.com/pixelEDI/TikTok-Projects/blob/259d265ee3a70d9bd4041f8de03d64af86c41daf/6_StudyBuddy/Screenshot.jpg)
 
 APP written in Python.  
 Testet on Windows 11 and Linux Debian 11
