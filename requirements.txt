@@ -1,5 +1,0 @@
-pandas==1.4.3
-numpy==1.23.1
-colorama==0.4.5
-python-docx==0.8.11
-
