@@ -13,8 +13,9 @@ check out the flows.json for the Node-RED Flow.
 * Install node-red-contrib-filesystem in Node-Red
 * According to the WEB Api from TimeTagger the Client has to deal with the start of a task. 
 * The CheckIn/start a Task a TXT-File will be used.
-    * if no File exists, a JSON according to the specs from timetagger will be safed.
-    * If a File exists, a HTTP PUT will be send to the API and the Record will be insert into TimeTagger. After that - the TXT File will be deleted.
+    * 
+    * If no file exists, a JSON according to the specs from timetagger will be saved.
+    * If a file exists, a HTTP PUT will be send to the API and the record will be insert into TimeTagger DB. After that - the TXT File will be deleted.
 
 
 ## Hardware
