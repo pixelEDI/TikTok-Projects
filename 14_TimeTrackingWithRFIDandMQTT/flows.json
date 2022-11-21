@@ -1,0 +1,277 @@
+[
+    {
+        "id": "4bc12c2f7be79826",
+        "type": "tab",
+        "label": "TikTok",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8d227f4f132aa9d4",
+        "type": "inject",
+        "z": "4bc12c2f7be79826",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 200,
+        "wires": [
+            [
+                "6c28d0b8ed9e3f53"
+            ]
+        ]
+    },
+    {
+        "id": "6c28d0b8ed9e3f53",
+        "type": "fs-access",
+        "z": "4bc12c2f7be79826",
+        "name": "",
+        "path": "/data",
+        "pathType": "str",
+        "filename": "zeiterfassungInktammy.txt",
+        "filenameType": "str",
+        "accessRead": true,
+        "accessWrite": true,
+        "x": 450,
+        "y": 180,
+        "wires": [
+            [
+                "aedda8e0d671ad03"
+            ],
+            [
+                "3fbc9dabd9252697"
+            ]
+        ]
+    },
+    {
+        "id": "3fbc9dabd9252697",
+        "type": "function",
+        "z": "4bc12c2f7be79826",
+        "name": "set payload and headers",
+        "func": "\nvar timstmp = Math.floor(new Date().getTime() / 1000);\n\nvar randomKey = Math.random().toString(36).slice(2, 9);\n\nvar description = (msg.payload);\n\nvar newRecord = {\n    key: randomKey,\n    t1: timstmp,\n    t2: timstmp + 60*15,\n    ds: description,\n    mt: timstmp,\n    st: 0.0\n};\n\nvar list=[newRecord];\n\n//msg.payload=JSON.stringify(newRecord);\n\nmsg.payload = list;\nnode.warn(\"eingestempelt\");\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 380,
+        "wires": [
+            [
+                "1605d29f78109927"
+            ]
+        ]
+    },
+    {
+        "id": "43262e466fe54b25",
+        "type": "comment",
+        "z": "4bc12c2f7be79826",
+        "name": "file existiert nicht -> einstempeln",
+        "info": "",
+        "x": 690,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b5d48e2ae38e7c36",
+        "type": "comment",
+        "z": "4bc12c2f7be79826",
+        "name": "file existiert -> ausstempeln und file löschen",
+        "info": "",
+        "x": 730,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "aedda8e0d671ad03",
+        "type": "file in",
+        "z": "4bc12c2f7be79826",
+        "name": "",
+        "filename": "/data/zeiterfassungInktammy.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 690,
+        "y": 280,
+        "wires": [
+            [
+                "a697fc896762a0f6"
+            ]
+        ]
+    },
+    {
+        "id": "1605d29f78109927",
+        "type": "file",
+        "z": "4bc12c2f7be79826",
+        "name": "",
+        "filename": "/data/zeiterfassungInktammy.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 990,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a697fc896762a0f6",
+        "type": "json",
+        "z": "4bc12c2f7be79826",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 970,
+        "y": 300,
+        "wires": [
+            [
+                "9d97bd996258b836"
+            ]
+        ]
+    },
+    {
+        "id": "9d97bd996258b836",
+        "type": "function",
+        "z": "4bc12c2f7be79826",
+        "name": "function 7",
+        "func": "\nvar timstmp = Math.floor(new Date().getTime() / 1000);\nvar newRecord = msg.payload;\n//endzeit eintragen\nnewRecord[0][\"t2\"]=timstmp;\n\nmsg.payload = newRecord;\n\nnode.warn(\"ausgestempelt\");\n\nmsg.headers = {};\nmsg.headers['authtoken'] = '';\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 300,
+        "wires": [
+            [
+                "d3741215ee886381"
+            ]
+        ]
+    },
+    {
+        "id": "d3741215ee886381",
+        "type": "http request",
+        "z": "4bc12c2f7be79826",
+        "name": "PUT",
+        "method": "PUT",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://yourtimetaggerURL:8082/timetagger/api/v2/records",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1270,
+        "y": 300,
+        "wires": [
+            [
+                "c3bc1c4fcf74ac78",
+                "c0182a5141bfae76"
+            ]
+        ]
+    },
+    {
+        "id": "c3bc1c4fcf74ac78",
+        "type": "debug",
+        "z": "4bc12c2f7be79826",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1430,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "c0182a5141bfae76",
+        "type": "fs-remove",
+        "z": "4bc12c2f7be79826",
+        "path": "/data",
+        "pathType": "str",
+        "filename": "zeiterfassungInktammy.txt",
+        "filenameType": "str",
+        "recursive": true,
+        "exist": true,
+        "name": "",
+        "x": 1430,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "81eece934b834611",
+        "type": "mqtt in",
+        "z": "4bc12c2f7be79826",
+        "name": "",
+        "topic": "zeiterfassung/inktammy",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "761f8032366518be",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 120,
+        "wires": [
+            [
+                "6c28d0b8ed9e3f53"
+            ]
+        ]
+    },
+    {
+        "id": "761f8032366518be",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
