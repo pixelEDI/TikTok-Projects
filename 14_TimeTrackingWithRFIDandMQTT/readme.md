@@ -1,7 +1,7 @@
 # General info
 
 ## TimeTagger
-We use timetagger.io with docker. Check out original project description:
+We use timetagger.app (thanks for the great app!) with docker. Check out original project description:
 https://timetagger.app/articles/selfhost2/
 
 TimeTagger has a simple WebAPI: https://timetagger.readthedocs.io/en/latest/webapi/   
