@@ -26,6 +26,4 @@ check out the flows.json for the Node-RED Flow.
 <img src="https://github.com/pixelEDI/TikTok-Projects/blob/32646deade520a9d39e21d5c72a7a015d9507186/14_TimeTrackingWithRFIDandMQTT/zeiterfassung_Steckplatine.png" width="500" />
 
 
-Fritzing will be added soon
-
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
