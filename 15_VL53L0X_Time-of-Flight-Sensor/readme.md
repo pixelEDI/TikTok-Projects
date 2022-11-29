@@ -7,6 +7,6 @@ Test the VL53L0x Sensor with Arduino IDE and Serial Plotter
 - VL53L0X Time of Flight Laser Ranging Sensor
 
 
-<img src="https://github.com/pixelEDI/TikTok-Projects/blob/a50124f4ed41661c3ed0f319d7daf61ea969e3f6/12_DigitalLaserMeasuringDevice/measure_Steckplatine.png" width="500">
+<img src="https://github.com/pixelEDI/TikTok-Projects/blob/9ed4f48033341acde0a28947f8b2ea1dc418d9da/15_VL53L0X_Time-of-Flight-Sensor/fritzing.jpg" width="500">
 
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
