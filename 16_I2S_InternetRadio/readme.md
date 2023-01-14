@@ -1,6 +1,6 @@
 # General info
 
-Get the URL from you favorite Internet Radio Sender and stream it with an ESP32.
+Get the URL of your favorite Internet Radio station and stream it with an ESP32.
 
 ## Hardware
 - ESP32
