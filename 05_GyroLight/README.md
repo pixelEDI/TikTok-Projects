@@ -8,7 +8,7 @@ In this fun little project we made a LED cube that changes colours when you turn
 - For the rotating mechanism we used a three-axis gyroscope. 
 - We also added a voltage transformer, so we can power the light with a regular power supply.
 
-<img src="https://github.com/pixelEDI/TikTok-Projects/blob/main/5_GyroLight/03AchsenGyro_Steckplatine.png" width="400">
+<img src="https://github.com/pixelEDI/TikTok-Projects/blob/202f58f9005e3179874a281c54ff87136c010019/05_GyroLight/03AchsenGyro_Steckplatine.png" width="400">
 
 
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
