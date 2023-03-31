@@ -6,7 +6,7 @@ In this fun little project, we change the colors of an RGB LED by clapping twice
 - For this project we used an Arduino Uno.
 - We added an RGB LED breakoutboard and a microphone. 
 
-<img src="https://github.com/pixelEDI/TikTok-Projects/blob/main/9_clapLight/clapLight_Steckplatine.png?raw=true" width="500">
+<img src="https://github.com/pixelEDI/TikTok-Projects/blob/ef2563e2ad507de2ce5618d5a36134f1d613a9df/09_clapLight/clapLight_Steckplatine.png" width="500">
 
 
 
