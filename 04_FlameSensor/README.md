@@ -11,5 +11,4 @@ When the fire is too close, a small fan is switched on by a relay, which blows o
 
 <img src="https://github.com/pixelEDI/TikTok-Projects/blob/202f58f9005e3179874a281c54ff87136c010019/04_FlameSensor/02FlameSensor_Steckplatine.png" width="500">
 
-
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
