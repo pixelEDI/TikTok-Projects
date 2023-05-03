@@ -29,7 +29,6 @@ MD_Parola mx = MD_Parola(HARDWARE_TYPE, CS_PIN, MAX_DEVICES);
 
 #define BUF_SIZE 75
 char pxMessage[BUF_SIZE] = {"pixelEDI"};
-uint16_t eco2, etvoc, errstat, raw;
 
 void setup()
 {
