@@ -3,6 +3,7 @@
 ## General info 
 
 * ESP32
+* DHT22 or DHT20 (code is for DHT22)
 * Set threshold and check if min or max value is triggered
 * 3 LEDs for indication
 
