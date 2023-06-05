@@ -10,7 +10,7 @@ Get the pm2,5 Values from the IKEA VINDRIKTNING Sensor.
 <img src="https://github.com/pixelEDI/TikTok-Projects/blob/c5845b72b9f8f691179f7b9ef47fde411602ca6f/25_IKEA_VINDRIKTNING/logicAnalyzer.png" widht="700">   
 
 
-* Note the different TTL of sensor (4.5V) and ESP8266 (3.3V). If you are brave, you can try it without logic level shifter, otherwise use one.
+* Note the different TTL level of sensor (4.5V) and ESP8266 (3.3V). If you are brave, you can try it without logic level shifter, otherwise use one.
 * According to the data sheet (PM10006) and the evaluation from the logic analyzer we get the following response:
  16 0d 02 DF1- DF4 DF5- DF8 DF9- DF12 [CS]   
 * PM2.5(μg/m3)= DF3*256+DF4. The 5 and 6 byte (index=0) is the pm2.5 value. 
