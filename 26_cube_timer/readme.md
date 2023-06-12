@@ -9,7 +9,8 @@ Therefore I created a simpole IoT stopwatch.
 * Button and 0,96 OLED Display
 
 ## General info 
-<img src="https://github.com/pixelEDI/TikTok-Projects/blob/c5845b72b9f8f691179f7b9ef47fde411602ca6f/25_IKEA_VINDRIKTNING/logicAnalyzer.png" widht="700">   
+<img src="https://github.com/pixelEDI/TikTok-Projects/blob/7b41f54df7a8740e8efbe22dd137854e9c397797/26_cube_timer/esp32-cubetimer.jpg" widht="400">   
+<img src="https://github.com/pixelEDI/TikTok-Projects/blob/7b41f54df7a8740e8efbe22dd137854e9c397797/26_cube_timer/esp32-cubetimer2.jpg" widht="400">   
 
 I had a thin film pressure sensor left over and thought it would be perfect for a stopwatch. 
 The time is sent via MQTT to Node-RED and saved in MariaDB.
