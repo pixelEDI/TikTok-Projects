@@ -9,7 +9,7 @@ Therefore I created a simpole IoT stopwatch.
 * Button and 0,96 OLED Display
 
 ## General info 
-<img src="https://github.com/pixelEDI/TikTok-Projects/blob/7b41f54df7a8740e8efbe22dd137854e9c397797/26_cube_timer/esp32-cubetimer.jpg" height="200">   
+
 <img src="https://github.com/pixelEDI/TikTok-Projects/blob/7b41f54df7a8740e8efbe22dd137854e9c397797/26_cube_timer/esp32-cubetimer2.jpg" widht="200">   
 
 I had a thin film pressure sensor left over and thought it would be perfect for a stopwatch. 
