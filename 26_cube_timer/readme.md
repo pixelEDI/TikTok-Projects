@@ -15,5 +15,10 @@ Therefore I created a simpole IoT stopwatch.
 I had a thin film pressure sensor left over and thought it would be perfect for a stopwatch. 
 The time is sent via MQTT to Node-RED and saved in MariaDB.
 
+## 3D 
+Get the Files on:
+[https://www.thingiverse.com/thing:6079522](https://www.thingiverse.com/thing:6079522)
+
+
 
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
