@@ -11,12 +11,11 @@ With this fun little project you get a RFID candy dispenser that regulates your 
 - And we added a 100µF capacitor for the motor.
 
 
-<img src="https://github.com/pixelEDI/TikTok-Projects/blob/main/27_RFIDCandy/VerdrahtungESP32_Steckplatine.jpg" width="300">
+<img src="https://github.com/pixelEDI/TikTok-Projects/blob/main/27_RFIDCandy/VerdrahtungESP32_Steckplatine.jpg" width="500">
 
 
 
 ## 3D Case
-Get the Case:   [Thingiverse](https://www.thingiverse.com/thing:5427689)
-![Case](https://github.com/pixelEDI/attiny_lightbase/blob/main/Collage3dlightbase.jpg?raw=true)
+Get the Case:   [Thingiverse](https://www.thingiverse.com/thing:6096504)
 
 You like it? Then I would be very happy if you treat me to a coffee on [ko-fi.com/pixeledi](https://www.ko-fi.com/pixeledi)
