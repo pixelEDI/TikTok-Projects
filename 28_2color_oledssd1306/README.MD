@@ -6,7 +6,6 @@
 
 <img src="https://github.com/pixelEDI/TikTok-Projects/blob/e67ae092e1aafff34915b08724a408aa320bff35/28_2color_oledssd1306/oled_blue.png" width="500">
 
-
 # Info
 There are differnt Version from the SSD1306
 In the upper area the colour is yellow, the rest is blue, no matter what is set in the code.
