@@ -1,1 +1,2 @@
-Coolingbox
+# stay tuned for the content 🐸
+
